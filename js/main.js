@@ -64,6 +64,33 @@ if (mail === '') {
  * 
  */
 
+//riferimento
+const btn = document.querySelector('.btn-generico');
+
+//evento di click
+btn.addEventListener('click', function() {
+//gen random
+const dadogiocatore = Math.floor( Math.random() * 6) + 1;
+console.log('risultato dado giocatore',dadogiocatore);
+const dadocomputer = Math.floor( Math.random() * 6) + 1;
+console.log( 'risultato dado computer', dadocomputer);
+
+if (dadogiocatore > dadocomputer) {
+    alert('il giocatore ha vinto')
+} else if (dadogiocatore < dadocomputer) {
+alert('il computer ha vinto') 
+
+} else {
+    (dadogiocatore ===  dadocomputer)
+    alert('pareggio')
+}
+});
+
+
+
+
+
+
 
 
 
