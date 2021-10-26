@@ -15,6 +15,14 @@
 const email = ['fabio@hotmail.it','paolo@gmail.com', 'alessandro@outlook.it'];
 console.log(email);
 
+//riferimento html
+
+const emailInput = document.getElementById('mail');
+const accedibtn = document.querySelector('.accedi');
+
+
+
+
 
 
 
