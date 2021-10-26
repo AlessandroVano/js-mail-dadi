@@ -42,7 +42,7 @@ if (mail === '') {
         }
     }
     console.log(userFound);
-
+   // messaggio per accesso eseguito o negato
     if (userFound) {
         console.log('Accesso eseguito');
     } else {
@@ -52,6 +52,21 @@ if (mail === '') {
 
 });
  
+
+/**
+ * 
+ * ESERCIZIO 2
+ * 
+ * GIOCO DEI DADI
+ * 
+ * Generare un numero random da 1 a 6, sia per il giocatore, sia per il pc.
+ * stabilire il vincitore, in base a chi fa il puntaggio più alto.
+ * 
+ */
+
+
+
+
 
 
 
