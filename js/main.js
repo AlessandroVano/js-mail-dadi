@@ -12,6 +12,10 @@
 
 //Creazione lista email
 
-const email = ['Fabio@hotmail.it','Paolo@gmail.com', 'Alessandro@outlook.it'];
+const email = ['fabio@hotmail.it','paolo@gmail.com', 'alessandro@outlook.it'];
 console.log(email);
+
+
+
+
 
