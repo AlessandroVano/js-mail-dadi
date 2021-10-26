@@ -22,6 +22,37 @@ const accedibtn = document.querySelector('.accedi');
 
 
 
+// Prova di accesso
+
+ accedibtn.addEventListener('click', function(){
+const mail = emailInput.value;
+console.log('scelta della mail',mail);
+
+if (mail === '') {
+    alert('inserire una mail');
+
+} else {
+    let userFound = false;
+
+    for(let i = 0; i < email.length; i++) {
+
+        if(email[i] === mail) {
+             userFound = true;
+            break;
+        }
+    }
+    console.log(userFound);
+
+    if (userFound) {
+        console.log('Accesso eseguito');
+    } else {
+        console.log('Accesso negato')
+    }
+}
+
+});
+ 
+
 
 
 
